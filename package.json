@@ -1,5 +1,5 @@
 {
-  "name": "@yusufkaanklc/react-gate-keeper",
+  "name": "react-permitly",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.es.js",
@@ -40,9 +40,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yusufkaanklc/react-gate-keeper.git"
+    "url": "https://github.com/yusufkaanklc/react-permitly.git"
   },
-  "homepage": "https://github.com/yusufkaanklc/react-gate-keeper#readme",
+  "homepage": "https://github.com/yusufkaanklc/react-permitly#readme",
   "description": "Gate Keeper is a powerful and flexible authorization and permission management library for modern web applications. It enables easy configuration of user roles, access controls, and permission boundaries. With a secure and scalable architecture, it offers developers a simple and effective experience.",
   "keywords": [
     "authorization",

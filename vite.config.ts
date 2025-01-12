@@ -9,7 +9,7 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: "./src/index.ts", // Kütüphanenin giriş noktası.
-			name: "@yusufkaanklc/react-gate-keeper", // Kütüphanenin adı.
+			name: "react-permitly", // Kütüphanenin adı.
 			fileName: (format) => `index.${format}.js`, // Çıktı dosyasının adı.
 			formats: ["cjs", "es"], // Çıktı formatları (CommonJS ve ES modülleri).
 		},
