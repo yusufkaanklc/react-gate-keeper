@@ -43,7 +43,7 @@
     "url": "https://github.com/yusufkaanklc/react-permitly.git"
   },
   "homepage": "https://github.com/yusufkaanklc/react-permitly#readme",
-  "description": "Gate Keeper is a powerful and flexible authorization and permission management library for modern web applications. It enables easy configuration of user roles, access controls, and permission boundaries. With a secure and scalable architecture, it offers developers a simple and effective experience.",
+  "description": "React Permitly is a powerful and flexible authorization and permission management library for modern web applications. It enables easy configuration of user roles, access controls, and permission boundaries. With a secure and scalable architecture, it offers developers a simple and effective experience.",
   "keywords": [
     "authorization",
     "permissions",
