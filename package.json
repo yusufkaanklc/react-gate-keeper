@@ -54,5 +54,8 @@
     "frontend",
     "react",
     "library"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
