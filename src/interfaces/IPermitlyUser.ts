@@ -1,10 +1,10 @@
 /**
  * Sistemdeki kullanıcı bilgilerini tutan arayüz
- * @interface IGKUser
+ * @interface IPermitlyUser
  * @property {string} name - Kullanıcının adı
  * @property {string[]} roles - Kullanıcıya atanmış rollerin listesi
  */
-export interface IGKUser {
+export interface IPermitlyUser {
 	name: string;
 	roles: string[];
 }

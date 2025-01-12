@@ -1,10 +1,10 @@
 /**
  * Rol bilgilerini tutan arayüz
- * @interface IGKRole
+ * @interface IPermitlyRole
  * @property {string} id - Rolün benzersiz tanımlayıcısı
  * @property {string[]} permissions - Role ait izinlerin listesi
  */
-export interface IGKRole {
+export interface IPermitlyRole {
 	id: string;
 	permissions: string[];
 }

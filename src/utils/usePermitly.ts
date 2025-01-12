@@ -1,6 +1,6 @@
-import type { IGKRole } from "@/interfaces/IGKRole";
-import type { IGKUser } from "@/interfaces/IGKUser";
-import { useGKStore } from "@/stores/GKStore";
+import type { IPermitlyRole } from "@/interfaces/IPermitlyRole";
+import type { IPermitlyUser } from "@/interfaces/IPermitlyUser";
+import { usePermitlyStore } from "@/stores/PermitlyStore";
 
 /**
  * GateKeeper hook'u - Kullanıcı ve rol yönetimi için özel hook
@@ -10,11 +10,11 @@ import { useGKStore } from "@/stores/GKStore";
  * @property {Function} setUser - Kullanıcı bilgisini güncellemek için kullanılan fonksiyon
  * @property {Function} getUser - Mevcut kullanıcı bilgisini getiren fonksiyon
  */
-export const useGateKeeper = () => {
-	const setRoles = (roles: IGKRole[]) => useGKStore.getState().setRoles(roles);
-	const getRoles = () => useGKStore.getState().roles;
-	const setUser = (user: IGKUser) => useGKStore.getState().setUser(user);
-	const getUser = () => useGKStore.getState().user;
+export const usePermitly = () => {
+	const setRoles = (roles: IPermitlyRole[]) => usePermitlyStore.getState().setRoles(roles);
+	const getRoles = () => usePermitlyStore.getState().roles;
+	const setUser = (user: IPermitlyUser) => usePermitlyStore.getState().setUser(user);
+	const getUser = () => usePermitlyStore.getState().user;
 
 	return { setRoles, getRoles, setUser, getUser };
 };

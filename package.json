@@ -53,7 +53,9 @@
     "role management",
     "frontend",
     "react",
-    "library"
+    "library",
+    "permitly",
+    "react-permitly"
   ],
   "publishConfig": {
     "access": "public"

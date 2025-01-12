@@ -1,13 +1,15 @@
 // Components
-export { GateKeeperController } from "@/components/GateKeeperController";
-export { GateKeeperProvider } from "@/components/GateKeeperProvider";
+export { PermitlyController } from "@/components/PermitlyController";
+export { PermitlyProvider } from "@/components/PermitlyProvider";
 
 // Interfaces
-export type { IGKRole } from "@/interfaces/IGKRole";
-export type { IGKUser } from "@/interfaces/IGKUser";
+export type { IPermitlyRole } from "@/interfaces/IPermitlyRole";
+export type { IPermitlyUser } from "@/interfaces/IPermitlyUser";
 
 // Stores
-export { useGKStore } from "@/stores/GKStore";
+export { usePermitlyStore } from "@/stores/PermitlyStore";
 
 // Utils
-export { useGateKeeper } from "@/utils/useGateKeeper";
+export { isAuthorized } from "@/utils/isAuthorized";
+export { usePermitly } from "@/utils/usePermitly";
+
