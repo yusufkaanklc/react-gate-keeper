@@ -1,0 +1,58 @@
+{
+  "name": "react-gate-keeper",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "cypress open",
+    "test:comp": "cypress run --component --browser chrome",
+    "build": "tsc -b && vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "zustand": "^5.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "cypress": "^13.17.0",
+    "globals": "^15.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.3.0"
+  },
+  "author": "Yusuf Kağan Kılıç <yusufkaankilic.yk@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusufkaanklc/react-gate-keeper.git"
+  },
+  "homepage": "https://github.com/yusufkaanklc/react-gate-keeper#readme",
+  "description": "Gate Keeper is a powerful and flexible authorization and permission management library for modern web applications. It enables easy configuration of user roles, access controls, and permission boundaries. With a secure and scalable architecture, it offers developers a simple and effective experience.",
+  "keywords": [
+    "authorization",
+    "permissions",
+    "access control",
+    "user roles",
+    "security",
+    "role management",
+    "frontend",
+    "react",
+    "library"
+  ]
+}
