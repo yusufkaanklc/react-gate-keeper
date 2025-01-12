@@ -1,7 +1,6 @@
 {
   "name": "react-gate-keeper",
   "version": "1.0.0",
-  "private": "false",
   "type": "module",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
